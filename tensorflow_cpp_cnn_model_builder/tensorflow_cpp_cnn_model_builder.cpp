@@ -36,10 +36,10 @@ int main() {
 	int num_batchs = 32;
 	int num_epochs = 10;
 	int learning_rate = 0.0001;
-	int image_width = 28;
 	int image_height = 28;
+	int image_width = 28;
 	int image_channels = 1;
-	int imageDim = image_width* image_height*image_channels;
+	int imageDim = image_height* image_width*image_channels;
 	int num_trains = 60000;
 	int num_iterations = (int)(num_trains/ num_batchs);
 	int num_tests = 10000;
