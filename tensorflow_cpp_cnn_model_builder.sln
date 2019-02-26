@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tensorflow_cpp_cnn_model_builder", "tensorflow_cpp_cnn_model_builder\tensorflow_cpp_cnn_model_builder.vcxproj", "{455D20B1-80F9-445E-A61A-BEB193FFF43B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cae_model_builder", "cae_model_builder\cae_model_builder.vcxproj", "{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{455D20B1-80F9-445E-A61A-BEB193FFF43B}.Release|x64.Build.0 = Release|x64
 		{455D20B1-80F9-445E-A61A-BEB193FFF43B}.Release|x86.ActiveCfg = Release|Win32
 		{455D20B1-80F9-445E-A61A-BEB193FFF43B}.Release|x86.Build.0 = Release|Win32
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Debug|x64.ActiveCfg = Debug|x64
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Debug|x64.Build.0 = Debug|x64
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Debug|x86.Build.0 = Debug|Win32
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Release|x64.ActiveCfg = Release|x64
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Release|x64.Build.0 = Release|x64
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Release|x86.ActiveCfg = Release|Win32
+		{AE1BB4F5-8EF8-4D2E-BB0F-1AAE7F474B3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
